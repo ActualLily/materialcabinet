@@ -1,7 +1,7 @@
 {
   "item.materialcabinet.storage_unit" : "Storage Unit",
 
-  "block.materialcabinet.material_cabinet" : "Material Cabinet",
+  "block.materialcabinet.material_cabinet_desk" : "Cabinet Desk",
 
   "itemGroup.material_cabinet" : "Material Cabinet"
 }

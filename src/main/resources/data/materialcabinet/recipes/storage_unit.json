@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "s-s",
+    "---",
+    "s-s"
+  ],
+  "key": {
+    "-": {
+      "item": "minecraft:air"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "result": {
+      "item": "materialcabinet:storage_unit",
+      "count": 4
+    }
+  }
+}

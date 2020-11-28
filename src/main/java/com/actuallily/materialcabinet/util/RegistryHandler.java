@@ -2,7 +2,7 @@ package com.actuallily.materialcabinet.util;
 
 import com.actuallily.materialcabinet.MaterialCabinet;
 import com.actuallily.materialcabinet.blocks.BlockItemBase;
-import com.actuallily.materialcabinet.blocks.MaterialCabinetBlock;
+import com.actuallily.materialcabinet.blocks.MaterialCabinetDeskBlock;
 import com.actuallily.materialcabinet.item.ItemBase;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -26,8 +26,10 @@ public class RegistryHandler {
     public static final RegistryObject<Item> STORAGE_UNIT = ITEMS.register("storage_unit", ItemBase::new);
 
     // BLOCK
-    public static final RegistryObject<Block> MATERIAL_CABINET_BLOCK = BLOCKS.register("material_cabinet", MaterialCabinetBlock::new);
+    public static final RegistryObject<Block> MATERIAL_CABINET_BLOCK = BLOCKS.register("material_cabinet", MaterialCabinetDeskBlock::new);
+    public static final RegistryObject<Block> MATERIAL_CABINET_DESK_BLOCK = BLOCKS.register("material_cabinet_desk", MaterialCabinetDeskBlock::new);
 
     // BLOCK ITEMS
     public static final RegistryObject<BlockItem> MATERIAL_CABINET_ITEM = ITEMS.register("material_cabinet", () -> new BlockItemBase(MATERIAL_CABINET_BLOCK.get()));
+    public static final RegistryObject<BlockItem> MATERIAL_CABINET_DESK_ITEM = ITEMS.register("material_cabinet_desk", () -> new BlockItemBase(MATERIAL_CABINET_DESK_BLOCK.get()));
 }

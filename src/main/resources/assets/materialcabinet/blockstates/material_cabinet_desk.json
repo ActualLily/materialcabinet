@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "materialcabinet:block/material_cabinet_desk" },
+    "facing=south": { "model": "materialcabinet:block/material_cabinet_desk", "y":  180},
+    "facing=west": { "model": "materialcabinet:block/material_cabinet_desk", "y":  270},
+    "facing=east": { "model": "materialcabinet:block/material_cabinet_desk", "y":  90}
+  }
+}

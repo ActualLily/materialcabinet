@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "sus",
+    "u-u",
+    "sus"
+  ],
+  "key":
+  {
+    "-":
+    {
+      "item": "minecraft:air"
+    },
+    "s":
+    {
+      "item": "minecraft:stick"
+    },
+    "u":
+    {
+      "item": "materialcabinet:storage_unit"
+    }
+  },
+  "result":
+  {
+    "item": "materialcabinet:material_cabinet_desk",
+    "count": 1
+  }
+}
