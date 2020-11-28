@@ -26,8 +26,8 @@ public class RegistryHandler {
     public static final RegistryObject<Item> STORAGE_UNIT = ITEMS.register("storage_unit", ItemBase::new);
 
     // BLOCK
-    public static final RegistryObject<Block> MATERIAL_CABINET_BLOCK = BLOCKS.register("storage_cabinet", MaterialCabinetBlock::new);
+    public static final RegistryObject<Block> MATERIAL_CABINET_BLOCK = BLOCKS.register("material_cabinet", MaterialCabinetBlock::new);
 
     // BLOCK ITEMS
-    public static final RegistryObject<BlockItem> MATERIAL_CABINET_ITEM = ITEMS.register("storage_cabinet", () -> new BlockItemBase(MATERIAL_CABINET_BLOCK.get()));
+    public static final RegistryObject<BlockItem> MATERIAL_CABINET_ITEM = ITEMS.register("material_cabinet", () -> new BlockItemBase(MATERIAL_CABINET_BLOCK.get()));
 }
