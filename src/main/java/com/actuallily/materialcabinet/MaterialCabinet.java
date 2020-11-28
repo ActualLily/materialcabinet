@@ -1,6 +1,8 @@
 package com.actuallily.materialcabinet;
 
 import com.actuallily.materialcabinet.util.RegistryHandler;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -27,4 +29,11 @@ public class MaterialCabinet {
 
     private void doClientStuff(final FMLClientSetupEvent event) {
     }
+
+    public static final ItemGroup TAB = new ItemGroup("material_cabinet") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(RegistryHandler.STORAGE_UNIT.get());
+        }
+    };
 }

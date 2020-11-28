@@ -1,3 +1,4 @@
 {
-  "item.materialcabinet.storage_unit" : "Storage Unit"
+  "item.materialcabinet.storage_unit" : "Storage Unit",
+  "itemgroup.material_cabinet" : "Material Cabinet"
 }
